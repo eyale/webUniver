@@ -5,6 +5,9 @@ body {
   background: #dfeccf;
   background: linear-gradient(180deg, #dfeccf, #fff); }
 
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1260px; } }
 header .account-info {
   display: flex;
   justify-content: flex-end;
@@ -28,29 +31,90 @@ header .navbar-default {
     padding: 0;
     background: transparent url("../images/logo.png") no-repeat;
     background-size: contain; }
-  header .navbar-default .navbar-collapse .navbar-right {
-    border: 1px solid #559400;
-    background: linear-gradient(180deg, #7bac39, #5c990b);
-    border-radius: 2px; }
-    header .navbar-default .navbar-collapse .navbar-right li a {
-      color: #fff;
-      font-size: 13px; }
-    header .navbar-default .navbar-collapse .navbar-right .dropdown-menu {
-      width: 260px;
-      padding: 20px;
-      color: #fff;
-      background: #5c990b; }
-      header .navbar-default .navbar-collapse .navbar-right .dropdown-menu .form-control {
-        background: #edf4e4;
-        border-radius: 10px;
-        margin: 5px 0; }
-      header .navbar-default .navbar-collapse .navbar-right .dropdown-menu button {
-        margin: 5px 0;
-        background: #f7dd06;
-        border-radius: 10px;
-        color: #000;
-        border: none;
-        width: 100%; }
+  header .navbar-default .navbar-collapse {
+    padding-top: 25px; }
+    header .navbar-default .navbar-collapse .navbar-right {
+      border: 1px solid #559400;
+      background: linear-gradient(180deg, #7bac39, #5c990b);
+      border-radius: 2px; }
+      header .navbar-default .navbar-collapse .navbar-right li {
+        text-align: left;
+        font-family: "Arial", sans-serif;
+        width: 150px; }
+        header .navbar-default .navbar-collapse .navbar-right li:last-of-type a {
+          font-size: 22px;
+          text-transform: capitalize;
+          font-family: "Tahoma", sans-serif; }
+        header .navbar-default .navbar-collapse .navbar-right li a {
+          color: #fff;
+          font-size: 13px;
+          line-height: 13px;
+          font-weight: 300;
+          padding: 10px 0 10px 5px;
+          text-transform: uppercase; }
+      header .navbar-default .navbar-collapse .navbar-right .dropdown.open a {
+        background: #5c990b;
+        color: #fff; }
+      header .navbar-default .navbar-collapse .navbar-right .dropdown .dropdown-menu {
+        width: 260px;
+        padding: 10px;
+        color: #fff;
+        background: #5c990b;
+        font-size: 11px; }
+        header .navbar-default .navbar-collapse .navbar-right .dropdown .dropdown-menu li {
+          width: auto; }
+          header .navbar-default .navbar-collapse .navbar-right .dropdown .dropdown-menu li a {
+            font-size: 11px;
+            width: 100%;
+            padding: 0;
+            text-decoration: underline; }
+            header .navbar-default .navbar-collapse .navbar-right .dropdown .dropdown-menu li a:hover {
+              background: transparent; }
+          header .navbar-default .navbar-collapse .navbar-right .dropdown .dropdown-menu li .form-control {
+            background: #edf4e4;
+            border-radius: 10px;
+            margin: 5px 0; }
+          header .navbar-default .navbar-collapse .navbar-right .dropdown .dropdown-menu li button {
+            height: 60px;
+            font-size: 15px;
+            margin: 5px 0;
+            font-family: "Tahoma", sans-serif;
+            background: #f7dd06;
+            border-radius: 10px;
+            color: #000;
+            border: none;
+            width: 100%; }
+
+.main .slide .carousel-example-generic {
+  position: relative; }
+.main .slide .carousel-indicators {
+  text-align: right; }
+  .main .slide .carousel-indicators li {
+    box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.5);
+    right: -70px; }
+.main .slide .gradient-text {
+  background: linear-gradient(160deg, #f09709 0%, #f09709 25%, #f4cb25 50%, #f09709 75%, #f09709 100%);
+  text-shadow: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: "Verdana", sans-serif;
+  color: #f6d715;
+  line-height: 1.2;
+  position: absolute;
+  top: -150px;
+  right: -210px; }
+.main .slide p {
+  font-size: 18px;
+  font-family: "Verdana",sans-serif;
+  color: dimgray;
+  line-height: 1.2;
+  text-shadow: none;
+  position: absolute;
+  width: 250px;
+  top: -70px;
+  right: -180px; }
 
 .uModul .itemU .itemUImage img {
   width: 100px;
