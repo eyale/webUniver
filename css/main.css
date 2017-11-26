@@ -1,4 +1,62 @@
+html {
+  background: #fff; }
+
+body {
+  background: #dfeccf;
+  background: linear-gradient(180deg, #dfeccf, #fff); }
+
+header .account-info {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40px; }
+  header .account-info a {
+    text-transform: uppercase;
+    color: #565656;
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 3px 0; }
+  header .account-info .tel {
+    padding-left: 40px;
+    background: transparent url("../images/tel.png") no-repeat; }
+header .navbar {
+  background: transparent;
+  border: none; }
+  header .navbar .container {
+    align-items: center; }
+    header .navbar .container .navbar-brand {
+      width: 160px;
+      height: 80px;
+      padding: 0;
+      background: transparent url("../images/logo.png") no-repeat; }
+    header .navbar .container .collapse {
+      width: 100%; }
+header .navbar-default .navbar-right {
+  border: 1px solid #559400;
+  background: linear-gradient(180deg, #7bac39, #5c990b);
+  border-radius: 2px; }
+  header .navbar-default .navbar-right li a {
+    color: #fff;
+    font-size: 13px; }
+  header .navbar-default .navbar-right .dropdown-menu {
+    width: 260px;
+    padding: 20px;
+    color: #fff;
+    background: #5c990b; }
+    header .navbar-default .navbar-right .dropdown-menu .form-control {
+      background: #edf4e4;
+      border-radius: 10px;
+      margin: 5px 0; }
+    header .navbar-default .navbar-right .dropdown-menu button {
+      margin: 5px 0;
+      background: #f7dd06;
+      border-radius: 10px;
+      color: #000;
+      border: none;
+      width: 100%; }
+
 .uModul .itemU .itemUImage img {
-	width: 100px;
-	height: 50px;
-}
+  width: 100px;
+  height: 50px; }
+
+/*# sourceMappingURL=main.css.map */
