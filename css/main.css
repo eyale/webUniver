@@ -19,41 +19,38 @@ header .account-info {
   header .account-info .tel {
     padding-left: 40px;
     background: transparent url("../images/tel.png") no-repeat; }
-header .navbar {
+header .navbar-default {
   background: transparent;
   border: none; }
-  header .navbar .container {
-    align-items: center; }
-    header .navbar .container .navbar-brand {
-      width: 160px;
-      height: 80px;
-      padding: 0;
-      background: transparent url("../images/logo.png") no-repeat; }
-    header .navbar .container .collapse {
-      width: 100%; }
-header .navbar-default .navbar-right {
-  border: 1px solid #559400;
-  background: linear-gradient(180deg, #7bac39, #5c990b);
-  border-radius: 2px; }
-  header .navbar-default .navbar-right li a {
-    color: #fff;
-    font-size: 13px; }
-  header .navbar-default .navbar-right .dropdown-menu {
-    width: 260px;
-    padding: 20px;
-    color: #fff;
-    background: #5c990b; }
-    header .navbar-default .navbar-right .dropdown-menu .form-control {
-      background: #edf4e4;
-      border-radius: 10px;
-      margin: 5px 0; }
-    header .navbar-default .navbar-right .dropdown-menu button {
-      margin: 5px 0;
-      background: #f7dd06;
-      border-radius: 10px;
-      color: #000;
-      border: none;
-      width: 100%; }
+  header .navbar-default .navbar-header .navbar-brand {
+    width: 150px;
+    height: 77px;
+    padding: 0;
+    background: transparent url("../images/logo.png") no-repeat;
+    background-size: contain; }
+  header .navbar-default .navbar-collapse .navbar-right {
+    border: 1px solid #559400;
+    background: linear-gradient(180deg, #7bac39, #5c990b);
+    border-radius: 2px; }
+    header .navbar-default .navbar-collapse .navbar-right li a {
+      color: #fff;
+      font-size: 13px; }
+    header .navbar-default .navbar-collapse .navbar-right .dropdown-menu {
+      width: 260px;
+      padding: 20px;
+      color: #fff;
+      background: #5c990b; }
+      header .navbar-default .navbar-collapse .navbar-right .dropdown-menu .form-control {
+        background: #edf4e4;
+        border-radius: 10px;
+        margin: 5px 0; }
+      header .navbar-default .navbar-collapse .navbar-right .dropdown-menu button {
+        margin: 5px 0;
+        background: #f7dd06;
+        border-radius: 10px;
+        color: #000;
+        border: none;
+        width: 100%; }
 
 .uModul .itemU .itemUImage img {
   width: 100px;
