@@ -260,17 +260,27 @@
   /*
     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     написать функцию обрабатывающюю нажатия на
-    все нечетные загововки второго уровня на странице,
+    все нечетные загововки второго(на выбор) уровня на странице,
     при нажатии на заголовок у нее изменется цвет с черного на зеленый
     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   */
-
-  document.addEventListener('click', function(event) {
+  document.addEventListener('click', (event) => {
     var arrayH4 = document.querySelectorAll('h4')
 
-    console.log(arrayH4)
     if (event.target.tagName === 'H4') {
-      console.log(event.target)
+      arrayH4.forEach((elementOfArray, i) => {
+        console.log(i)
+        // выделить цветом все нечетные
+        if ((i % 2) === 0) {
+          elementOfArray.style.color = 'green'
+          console.log(elementOfArray)
+        }
+
+        //        выделить цветом нажимаемый елемент h4
+        //        if (elementOfArray === event.target) {
+        //          event.target.style.color = 'green'
+        //        }
+      })
     }
   })
 </script>
