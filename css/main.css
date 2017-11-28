@@ -30,7 +30,8 @@ header .navbar-default {
     height: 77px;
     padding: 0;
     background: transparent url("../images/logo.png") no-repeat;
-    background-size: contain; }
+    background-size: contain;
+    margin-bottom: 25px; }
   header .navbar-default .navbar-collapse {
     padding-top: 25px; }
     header .navbar-default .navbar-collapse .navbar-right {
@@ -40,11 +41,13 @@ header .navbar-default {
       header .navbar-default .navbar-collapse .navbar-right li {
         text-align: left;
         font-family: "Arial", sans-serif;
-        width: 150px; }
-        header .navbar-default .navbar-collapse .navbar-right li:last-of-type a {
-          font-size: 22px;
-          text-transform: capitalize;
-          font-family: "Tahoma", sans-serif; }
+        width: 130px; }
+        header .navbar-default .navbar-collapse .navbar-right li:last-of-type {
+          width: 140px; }
+          header .navbar-default .navbar-collapse .navbar-right li:last-of-type a {
+            font-size: 20px;
+            text-transform: capitalize;
+            font-family: "Tahoma", sans-serif; }
         header .navbar-default .navbar-collapse .navbar-right li a {
           color: #fff;
           font-size: 13px;
@@ -115,6 +118,11 @@ header .navbar-default {
   width: 250px;
   top: -70px;
   right: -180px; }
+
+.content-container {
+  border: 2px solid darkgrey;
+  margin: 20px auto;
+  padding: 5px; }
 
 .uModul .itemU .itemUImage img {
   width: 100px;

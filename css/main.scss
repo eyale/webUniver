@@ -42,6 +42,7 @@ header {
         padding: 0;
         background: transparent url('../images/logo.png') no-repeat;
         background-size: contain;
+        margin-bottom: 25px;
       }
     }
 
@@ -56,11 +57,12 @@ header {
         li {
           text-align: left;
           font-family: "Arial", sans-serif;
-          width: 150px;
+          width: 130px;
 
           &:last-of-type {
+            width: 140px;
             a {
-              font-size: 22px;
+              font-size: 20px;
               text-transform: capitalize;
               font-family: "Tahoma", sans-serif;
             }
@@ -161,6 +163,13 @@ header {
     }
 
   }
+}
+
+.content-container {
+  border: 2px solid darkgrey;
+  margin: 20px auto;
+  padding: 5px;
+
 }
 
 .uModul {
